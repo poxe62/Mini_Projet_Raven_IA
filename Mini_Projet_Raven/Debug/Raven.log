@@ -1,0 +1,154 @@
+﻿La génération a démarré 04/11/2015 09:56:09.
+     1>Projet "D:\cours\UQAC\Intelligence artificielle - jeux vidéos\Buckland_AISource\Mini_Projet_Raven\Raven.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I".\Common\lua-5.1.3\include" /I.\Common /Zi /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /FAs /Fa".\Debug/" /Fo".\Debug/" /Fd".\Debug/vc140.pdb" /FR".\Debug\\" /Gd /TP /analyze- /errorReport:prompt /Zm200  main.cpp Raven_Bot.cpp Raven_Game.cpp Raven_Map.cpp armory\Raven_Weapon.cpp armory\Weapon_Blaster.cpp armory\Weapon_RailGun.cpp armory\Weapon_RocketLauncher.cpp armory\Weapon_ShotGun.cpp armory\Projectile_Bolt.cpp armory\Projectile_Pellet.cpp armory\Projectile_Rocket.cpp armory\Projectile_Slug.cpp armory\Raven_Projectile.cpp ..\Common\Game\BaseGameEntity.cpp lua\Raven_Scriptor.cpp ..\Common\Game\EntityManager.cpp GraveMarkers.cpp Raven_Door.cpp Raven_UserOptions.cpp goals\Raven_Goal_Types.cpp goals\Goal_AdjustRange.cpp goals\Goal_AttackTarget.cpp goals\Goal_Explore.cpp goals\Goal_FollowPath.cpp goals\Goal_GetItem.cpp goals\Goal_HuntTarget.cpp goals\Goal_MoveToPosition.cpp goals\Goal_NegotiateDoor.cpp goals\Goal_Think.cpp goals\AttackTargetGoal_Evaluator.cpp goals\ExploreGoal_Evaluator.cpp goals\GetHealthGoal_Evaluator.cpp goals\GetWeaponGoal_Evaluator.cpp goals\Raven_Feature.cpp goals\Goal_DodgeSideToSide.cpp goals\Goal_SayPhrase.cpp goals\Goal_SeekToPosition.cpp goals\Goal_TraverseEdge.cpp goals\Goal_Wander.cpp ..\Common\fuzzy\FuzzyModule.cpp ..\Common\fuzzy\FuzzyOperators.cpp ..\Common\fuzzy\FuzzyVariable.cpp ..\Common\fuzzy\FuzzySet_LeftShoulder.cpp ..\Common\fuzzy\FuzzySet_RightShoulder.cpp ..\Common\fuzzy\FuzzySet_Singleton.cpp ..\Common\fuzzy\FuzzySet_Triangle.cpp navigation\Raven_PathPlanner.cpp Raven_SteeringBehaviors.cpp ..\Common\Messaging\MessageDispatcher.cpp Raven_SensoryMemory.cpp triggers\Trigger_HealthGiver.cpp triggers\Trigger_SoundNotify.cpp triggers\Trigger_WeaponGiver.cpp Raven_WeaponSystem.cpp Raven_TargetingSystem.cpp ..\Common\misc\Cgdi.cpp ..\Common\Time\CrudeTimer.cpp ..\Common\Debug\DebugConsole.cpp ..\Common\misc\FrameCounter.cpp ..\Common\Time\PrecisionTimer.cpp ..\Common\2D\Vector2d.cpp ..\Common\misc\WindowUtils.cpp
+         WindowUtils.cpp
+         Vector2d.cpp
+         PrecisionTimer.cpp
+         FrameCounter.cpp
+         DebugConsole.cpp
+         CrudeTimer.cpp
+         Cgdi.cpp
+         Raven_TargetingSystem.cpp
+         Raven_WeaponSystem.cpp
+         Trigger_WeaponGiver.cpp
+         Trigger_SoundNotify.cpp
+         Trigger_HealthGiver.cpp
+         Raven_SensoryMemory.cpp
+         MessageDispatcher.cpp
+         Raven_SteeringBehaviors.cpp
+         Raven_PathPlanner.cpp
+         FuzzySet_Triangle.cpp
+         FuzzySet_Singleton.cpp
+         FuzzySet_RightShoulder.cpp
+         FuzzySet_LeftShoulder.cpp
+         Génération de code en cours...
+         Compilation en cours...
+         FuzzyVariable.cpp
+         FuzzyOperators.cpp
+         FuzzyModule.cpp
+         Goal_Wander.cpp
+         Goal_TraverseEdge.cpp
+         Goal_SeekToPosition.cpp
+         Goal_SayPhrase.cpp
+         Goal_DodgeSideToSide.cpp
+         Raven_Feature.cpp
+         GetWeaponGoal_Evaluator.cpp
+         GetHealthGoal_Evaluator.cpp
+         ExploreGoal_Evaluator.cpp
+         AttackTargetGoal_Evaluator.cpp
+         Goal_Think.cpp
+         Goal_NegotiateDoor.cpp
+         Goal_MoveToPosition.cpp
+         Goal_HuntTarget.cpp
+         Goal_GetItem.cpp
+         Goal_FollowPath.cpp
+         Goal_Explore.cpp
+         Génération de code en cours...
+         Compilation en cours...
+         Goal_AttackTarget.cpp
+         Goal_AdjustRange.cpp
+         Raven_Goal_Types.cpp
+         Raven_UserOptions.cpp
+         Raven_Door.cpp
+         GraveMarkers.cpp
+         EntityManager.cpp
+         Raven_Scriptor.cpp
+         BaseGameEntity.cpp
+         Raven_Projectile.cpp
+         Projectile_Slug.cpp
+         Projectile_Rocket.cpp
+         Projectile_Pellet.cpp
+         Projectile_Bolt.cpp
+         Weapon_ShotGun.cpp
+         Weapon_RocketLauncher.cpp
+         Weapon_RailGun.cpp
+         Weapon_Blaster.cpp
+         Raven_Weapon.cpp
+         Raven_Map.cpp
+         Génération de code en cours...
+         Compilation en cours...
+         Raven_Game.cpp
+         Raven_Bot.cpp
+         main.cpp
+         Génération de code en cours...
+       Link:
+         D:\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/Raven.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcmt /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:".\Debug/Raven.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\Raven.lib" /MACHINE:X86 /SAFESEH .\Debug\Script1.res
+         .\Debug/main.obj
+         .\Debug/Raven_Bot.obj
+         .\Debug/Raven_Game.obj
+         .\Debug/Raven_Map.obj
+         .\Debug/Raven_Weapon.obj
+         .\Debug/Weapon_Blaster.obj
+         .\Debug/Weapon_RailGun.obj
+         .\Debug/Weapon_RocketLauncher.obj
+         .\Debug/Weapon_ShotGun.obj
+         .\Debug/Projectile_Bolt.obj
+         .\Debug/Projectile_Pellet.obj
+         .\Debug/Projectile_Rocket.obj
+         .\Debug/Projectile_Slug.obj
+         .\Debug/Raven_Projectile.obj
+         .\Debug/BaseGameEntity.obj
+         .\Debug/Raven_Scriptor.obj
+         .\Debug/EntityManager.obj
+         .\Debug/GraveMarkers.obj
+         .\Debug/Raven_Door.obj
+         .\Debug/Raven_UserOptions.obj
+         .\Debug/Raven_Goal_Types.obj
+         .\Debug/Goal_AdjustRange.obj
+         .\Debug/Goal_AttackTarget.obj
+         .\Debug/Goal_Explore.obj
+         .\Debug/Goal_FollowPath.obj
+         .\Debug/Goal_GetItem.obj
+         .\Debug/Goal_HuntTarget.obj
+         .\Debug/Goal_MoveToPosition.obj
+         .\Debug/Goal_NegotiateDoor.obj
+         .\Debug/Goal_Think.obj
+         .\Debug/AttackTargetGoal_Evaluator.obj
+         .\Debug/ExploreGoal_Evaluator.obj
+         .\Debug/GetHealthGoal_Evaluator.obj
+         .\Debug/GetWeaponGoal_Evaluator.obj
+         .\Debug/Raven_Feature.obj
+         .\Debug/Goal_DodgeSideToSide.obj
+         .\Debug/Goal_SayPhrase.obj
+         .\Debug/Goal_SeekToPosition.obj
+         .\Debug/Goal_TraverseEdge.obj
+         .\Debug/Goal_Wander.obj
+         .\Debug/FuzzyModule.obj
+         .\Debug/FuzzyOperators.obj
+         .\Debug/FuzzyVariable.obj
+         .\Debug/FuzzySet_LeftShoulder.obj
+         .\Debug/FuzzySet_RightShoulder.obj
+         .\Debug/FuzzySet_Singleton.obj
+         .\Debug/FuzzySet_Triangle.obj
+         .\Debug/Raven_PathPlanner.obj
+         .\Debug/Raven_SteeringBehaviors.obj
+         .\Debug/MessageDispatcher.obj
+         .\Debug/Raven_SensoryMemory.obj
+         .\Debug/Trigger_HealthGiver.obj
+         .\Debug/Trigger_SoundNotify.obj
+         .\Debug/Trigger_WeaponGiver.obj
+         .\Debug/Raven_WeaponSystem.obj
+         .\Debug/Raven_TargetingSystem.obj
+         .\Debug/Cgdi.obj
+         .\Debug/CrudeTimer.obj
+         .\Debug/DebugConsole.obj
+         .\Debug/FrameCounter.obj
+         .\Debug/PrecisionTimer.obj
+         .\Debug/Vector2d.obj
+         .\Debug/WindowUtils.obj
+         "..\Common\lua-5.1.3\lua5.1.lib"
+     1>lua5.1.lib(lauxlib.obj) : error LNK2019: symbole externe non résolu ___iob_func référencé dans la fonction _luaL_loadfile
+     1>lua5.1.lib(ldblib.obj) : error LNK2001: symbole externe non résolu ___iob_func
+     1>lua5.1.lib(liolib.obj) : error LNK2001: symbole externe non résolu ___iob_func
+     1>lua5.1.lib(lbaselib.obj) : error LNK2001: symbole externe non résolu ___iob_func
+     1>lua5.1.lib(lobject.obj) : error LNK2019: symbole externe non résolu _sprintf référencé dans la fonction _luaO_pushvfstring
+     1>lua5.1.lib(lvm.obj) : error LNK2001: symbole externe non résolu _sprintf
+     1>lua5.1.lib(lstrlib.obj) : error LNK2001: symbole externe non résolu _sprintf
+     1>lua5.1.lib(liolib.obj) : error LNK2019: symbole externe non résolu _fscanf référencé dans la fonction _read_number
+     1>.\Debug/Raven.exe : fatal error LNK1120: 3 externes non résolus
+     1>Génération du projet "D:\cours\UQAC\Intelligence artificielle - jeux vidéos\Buckland_AISource\Mini_Projet_Raven\Raven.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:01:38.51
